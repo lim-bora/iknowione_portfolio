@@ -1,0 +1,805 @@
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iknowione</title>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/xpressengine/xeicon@2.3.1/xeicon.min.css">
+    <link rel="stylesheet" href="./css/iknowione.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/m_iknowione.css" />
+    <script src="./lib/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <ul class="header_inner">
+                <li id="header_logo"><img src="./img/logo01.png"></li>
+                <li id="header_nav">
+                    <div class="cate" id="brandCate">BRAND
+                        <span></span>
+                    </div>
+                    <div class="cate catecommon" id="shoppingCate">SHOPPING
+                        <ul id="shopping">
+                            <li><a href="">ALL</a></li>
+                            <li><a href="">MAKE UP</a></li>
+                            <li><a href="">FACE</a></li>
+                            <li><a href="">LIP</a></li>
+                            <li><a href="">SKIN CARE</a></li>
+                        </ul>
+                        <span></span>
+                    </div>
+                    <div class="cate" id="eventCate">EVENT
+                        <span></span>
+                    </div>
+                    <div class="cate catecommon" id="communityCate">COMMUNITY
+                        <ul id="community">
+                            <li><a href="">NOTICE</a></li>
+                            <li><a href="">REVIEW</a></li>
+                            <li><a href="">Q&amp;A</a></li>
+                        </ul>
+                        <span></span>
+                    </div>
+                </li>
+                <div class="nav_bg"></div>
+                <li id="header_subnav">
+                    <a id="subnav_login" class="subnav" href="">LOG-IN</a>
+                    <a id="subnav_join" class="subnav" href="">JOIN</a>
+                    <a id="subnav_mypage" class="subnav" href="">MY PAGE</a>
+                    <i class="xi-search subnav"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="contents">
+            <div class="mainSlide_bg">
+                <div class="mainSlideImg_box">
+                    <div class="mainSlide">
+                        <div class="mainimg_box mainimg_box01 mainCM">
+                            <img class="mainImgOn" src="./img/main01.jpg">
+                            <img src="./img/main02.jpg">
+                            <img src="./img/main03.jpg">
+                            <img src="./img/main04.jpg">
+                            <img src="./img/main05.jpg">
+                        </div>
+                        <div class="mainimg_box mainimg_box02 mainCM">
+                            <img class="mainImgOn" src="./img/main01-1.jpg">
+                            <img src="./img/main02-1.jpg">
+                            <img src="./img/main03-1.jpg">
+                            <img src="./img/main04-1.jpg">
+                            <img src="./img/main05-1.jpg">
+                        </div>
+                        <span class="mainSlide_txt mainCM">
+                            <p class="on">#얼루어 Pick<b>Glow Shimmer base</b></p>
+                            <p>#LIP MAKEUP<b>I LOVE MULTI COLOR PEN</b></p>
+                            <p>#Editor pick #59% OFF<b>코덕박스</b></p>
+                            <p>#완벽한컬러조합 #브러쉬 증정<b>I LIKE EYE SHADOW TRIO</b></p>
+                            <p>#보송텍스쳐 #더블레이어링<b>I NEED U CUSHION</b></p>
+                        </span>
+                    </div>
+                    <div class="mainslide_pager">
+                        <span class="on"></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div id="product_slide">
+                <div id="productSlideWrap">
+                    <h3>all</h3>
+                    <div class="productBg" style="width: 200%; height: 100%; overflow: hidden;">
+                        <div class="product_box" id="product_box01">
+                            <ul class="small_product_box">
+                                <li class="small_product small_productTop">
+                                    <div class="smPrImg">
+                                        <img src="./img/20443e91f86c163d65f675be0aae7b41.png">
+                                    </div>
+                                    <div class="smPrTXT">
+                                        <span class="productName">아이터치쿠션치크</span>
+                                        <span class="productExplanation">발그레한 두 볼을 촉촉하게 물들이는 쿠션 치크 #과즙쿠션치크</span>
+                                        <span class="retailPrice">17,000원</span>
+                                        <span class="salePrice">8,500원</span>
+                                    </div>
+                                </li>
+                                <li class="small_product small_productbottom">
+                                    <div class="smPrTXT">
+                                        <span class="productName">아이 터치 블로썸 치크</span>
+                                        <span class="productExplanation">두 컬러를 레이어링해 다양한 연출이 가능한 멀티 하이라이팅 치크</span>
+                                        <span class="retailPrice">19,000원</span>
+                                        <span class="salePrice">9,500원</span>
+                                    </div>
+                                    <div class="smPrImg">
+                                        <img src="./img/fd29823fec5cb960c09e3dfa3f9ceb2b.png">
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="big_product">
+                                <img src="./img/058d01802fab7f9d11b01d51ac74db20.png">
+                                <div class="blackBg">
+                                    <span class="bigproductName">아이 러브 글로시 립스틱</span>
+                                    <span class="bigproductExplanation">매끈하고 촉촉한 입술을 연출해주는 고발색 립스틱</span>
+                                    <span class="bigretailPrice">16,000원</span>
+                                    <span class="bigsalePrice">4,900원</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_box" id="product_box02">
+                            <ul class="small_product_box">
+                                <li class="small_product small_productTop">
+                                    <div class="smPrImg">
+                                        <img src="./img/48ca0fe2302b0f636fa74f7911c3fcbe (1).png">
+                                    </div>
+                                    <div class="smPrTXT">
+                                        <span class="productName">아이 러브 매트 립스틱</span>
+                                        <span class="productExplanation">가볍고 보송한 초밀착 핏팅감과 선명한 컬러감</span>
+                                        <span class="retailPrice">16,000원</span>
+                                        <span class="salePrice">4,900원</span>
+                                    </div>
+                                </li>
+                                <li class="small_product small_productbottom">
+                                    <div class="smPrTXT">
+                                        <span class="productName">아이 러브 립스틱 브릿지</span>
+                                        <span class="productExplanation">두 컬러를 이어주는 립스틱 전용 브릿지</span>
+                                        <span class="retailPrice">5,000원</span>
+                                        <span class="salePrice">3,000원</span>
+                                    </div>
+                                    <div class="smPrImg">
+                                        <img src="./img/857817689ef67613fb6bac955bf9b4d4.png">
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="big_product">
+                                <img src="./img/8bc404ee6be245074987f3b5366d67a5.png">
+                                <div class="blackBg">
+                                    <span class="bigproductName">아이 니드 유 쿠션 + 리필 1 증정</span>
+                                    <span class="bigproductExplanation">한 단계 더 진화된 더블 레이어링 쿠션 #자석쿠션</span>
+                                    <span class="bigretailPrice">42,000원</span>
+                                    <span class="bigsalePrice">19,800원</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Allprne">
+                    <div class="Allprev"><img src="./img/prevarrow.png"></div>
+                    <a></a>
+                    <div class="Allnext"><img src="./img/nextarrow.png"></div>
+                </div>
+            </div>
+            <div id="mainvisual">
+                <div id="mainvisual_center">
+                    <ul>
+                        <li>
+                            <span class="mainvisual_txt">    
+                                <b>I NEED U CUSHION</b>
+                                <span>
+                                    가볍고 보송하게 롱 웨어링! 한 단계 진화된 더블 레이어링 쿠션
+                                </span>
+                            </span>    
+                            <div class="mainvisual_img">
+                                <img src="./img/banner01.jpg">
+                            </div>
+                        </li>
+                        <li>   
+                            <div class="mainvisual_img" style="margin-top: 20px;">
+                                <img src="./img/banner02.jpg">
+                            </div>
+                            <span class="mainvisual_txt">    
+                                <b>PORE VELVET BASE</b>
+                                <span>
+                                    한 겹 벨벳을 씌운 듯 하얀 도자기 피부결처럼 매끈하고 보송하게!
+                                </span>
+                            </span> 
+                        </li>
+                        <li>
+                            <span class="mainvisual_txt">    
+                                <b>다양한 혜택의 멤버십 안내</b>
+                                <span>
+                                    고객 여러분께 감사의 마음을 전하는 멤버십 혜택입니다.
+                                </span>
+                            </span>    
+                            <div class="mainvisual_img">
+                                <img src="./img/banner03.jpg">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="tabCategory">
+                <div id="tabCategory_center">
+                    <ul class="tabs">
+                        <li class="tabOn need">#I NEED</li>
+                        <li class="love">#I LOVE</li>
+                        <li class="touch">#I TOUCH</li>
+                        <li class="like">#I LIKE</li>
+                        <li class="wish">#I WISH</li>
+                    </ul>
+                    <div class="cateBox">
+                        <div style="width: 100%; height: 100%; position: relative;">
+                            <div id="cateBoxTxt">
+                                <div id="tab01" class="tabBox tabBoxOn">
+                                    <div class="cateTxt cateOn tab1 Text1">
+                                        <li class="hashtagTxt txtOn">
+                                            <p class="proname">아이 니드 유 쿠션 + 리필 1 증정</p>
+                                            <span class="promotion">한 단계 더 진화된 더블 레이어링 쿠션 #자석쿠션</span>
+                                        </li>
+                                        <li class="hashtagTxt">
+                                            <p class="proname">아이 니드 유 파운데이션</p>
+                                            <span class="promotion">매끈하게 피부를 감싸는 리퀴드 파운데이션</span>
+                                        </li>
+                                        <li class="hashtagTxt">
+                                            <p class="proname">아이 니드 포어 벨벳 베이스</p>
+                                            <span class="promotion">한 겹 벨벳을 씌운 듯 피부결을 매끈하고 보송하게</span>
+                                        </li>
+                                        <div class="btnprdby">구매하기</div>
+                                    </div>
+                                    <div class="thumbnail">
+                                        <div class="prdImg">
+                                            <img class="ImgOn" src="./img/8bc404ee6be245074987f3b5366d67a5.png">
+                                            <img src="./img/084d3078b0d2b8723ccd5f4f3c96c04a.png">
+                                            <img src="./img/96069849a82f32bba7a820bad5955183.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab02" class="tabBox">
+                                    <div class="cateTxt cateOn tab2 Text2">
+                                        <li class="hashtagTxt txtOn aa">
+                                            <p class="proname">아이 러브 멀티 컬러 펜</p>
+                                            <span class="promotion">부드러운 발림성으로 또렷하고 선명한 립라인을 선사하는 립펜슬 #스무디립펜슬</span>
+                                        </li>
+                                        <li class="hashtagTxt aa">
+                                            <p class="proname">아이 러브 매트 립스틱</p>
+                                            <span class="promotion">가볍고 보송한 초밀착 핏팅감과 선명한 컬러감</span>
+                                        </li>
+                                        <li class="hashtagTxt aa">
+                                            <p class="proname">아이 러브 글로시 립스틱</p>
+                                            <span class="promotion">매끈하고 촉촉한 입술을 연출해주는 고발색 립스틱</span>
+                                        </li>
+                                        <div class="btnprdby">구매하기</div>
+                                    </div>
+                                    <div class="thumbnail">
+                                        <div class="prdImg">
+                                            <img class="ImgOn" src="./img/cb5e42a496b649f9bbd0ba1f43f2876b.png">
+                                            <img src="./img/48ca0fe2302b0f636fa74f7911c3fcbe (2).png">
+                                            <img src="./img/84e0734fb984885abb53241056cf0fc4.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab03" class="tabBox">
+                                    <div class="cateTxt cateOn tab3 Text3">
+                                        <li class="hashtagTxt txtOn">
+                                            <p class="proname">아이 터치 쿠션 치크</p>
+                                            <span class="promotion">발그레한 두 볼을 촉촉하게 물들이는 쿠션 치크 #과즙쿠션치크</span>
+                                        </li>
+                                        <li class="hashtagTxt">
+                                            <p class="proname">아이 터치 블로썸 치크</p>
+                                            <span class="promotion">두 컬러를 레이어링해 다양한 연출이 가능한 멀티 하이라이팅 치크</span>
+                                        </li>
+                                        <div class="btnprdby">구매하기</div>
+                                    </div>
+                                    <div class="thumbnail">
+                                        <div class="prdImg">
+                                            <img class="ImgOn" src="./img/20443e91f86c163d65f675be0aae7b41 (1).png">
+                                            <img src="./img/fd29823fec5cb960c09e3dfa3f9ceb2b (1).png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab04" class="tabBox">
+                                    <div class="cateTxt cateOn tab4 Text4">
+                                        <li class="hashtagTxt txtOn">
+                                            <p class="proname">아이 라이크 아이섀도 트리오</p>
+                                            <span class="promotion">눈 위에 펼쳐지는 세 가지 컬러의 수채화 같은 블렌딩</span>
+                                        </li>
+                                        <li class="hashtagTxt">
+                                            <p class="proname">아이 라이크 3 인 1 아이브로우</p>
+                                            <span class="promotion">빈틈없이 정교하고 깔끔한 눈매를 연출하는 3 IN 1 아이브로우</span>
+                                        </li>
+                                        <div class="btnprdby">구매하기</div>
+                                    </div>
+                                    <div class="thumbnail">
+                                        <div class="prdImg">
+                                            <img class="ImgOn" src="./img/d9d63aab7d46fc6300cb1693a95a039f.png">
+                                            <img src="./img/2a7861193abacf03b23b04ed67fb4c63.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab05" class="tabBox">
+                                    <div class="cateTxt cateOn tab5 Text5">
+                                        <li class="hashtagTxt txtOn">
+                                            <p class="proname">아이 위시 메이크업 픽싱 미스트 (50ml)</p>
+                                            <span class="promotion">미스트의 보습력과 픽서의 고정력을 하나에 담다!</span>
+                                        </li>
+                                        <li class="hashtagTxt">
+                                            <p class="proname">아이 위시 레디 2 메이크업 마스크 (5개)</p>
+                                            <span class="promotion">지친 피부를 달래주고 수분을 채워 촉촉한 피부로 가꾸어주는 마스크</span>
+                                        </li>
+                                        <div class="btnprdby">구매하기</div>
+                                    </div>
+                                    <div class="thumbnail">
+                                        <div class="prdImg">
+                                            <img class="ImgOn" src="./img/d7d83f00cb6ba358c53f507afce4fa60.png">
+                                            <img src="./img/6668c60cd52f3ebfaf40b97140b45469.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prne">
+                                <div class="prev"><img src="./img/prevarrow.png"></div>
+                                <a></a>
+                                <div class="next"><img src="./img/nextarrow.png"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="movie">
+                <div id="movie_bg"></div>
+                <div id="movie_inner">
+                    <h2>More effective YET Minimal makeup</h2>
+                    <h3>하나의 제품, 간단한 터치만으로 손쉽게!</h3>
+                    <div class="movie_wrp">
+                        <iframe width="100%" height="550" src="https://www.youtube.com/embed/7YG4zqXOBoc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <div id="notice_box">
+                    <table>
+                        <div>
+                            <div class="notice"><b>공지</b></div>
+                            <div class="title">
+                                <a href="">CJ대한통운 물량폭주로 인한 배송지연 안내</a>
+                            </div>
+                        </div>
+                    </table>
+                </div>
+                <div id="footer_box">
+                    <div id="footer_inner">
+                        <div class="footerlogo">
+                            <img src="./img/logo01 (1).png">
+                        </div>
+                        <div class="footertxt">
+                            <div id="sub_cate">
+                                <span>홈으로</span>
+                                <span>회사소개</span>
+                                <span>이용약관</span>
+                                <span>개인정보취급방침</span>
+                                <span>이용안내</span>
+                                <span>공정거래위원회</span>
+                                <span>구매안전서비스</span>
+                            </div>
+                            <div id="address">
+                                <p><span>company. 주식회사 에프앤리퍼블릭</span>
+                                <span>owner. 오창근</span>
+                                <span>personal info manager. 조병현 (help@ssbc.co.kr)</span></p>
+                                <p><span>tel. 02-1899-0243</span>
+                                <span>business no. 130-81-32739</span>
+                                <span>mail order license. 2020-서울성동-02138호 </span>
+                                <span>[사업자정보확인]</span></p>
+                                <p class="copy">copyright © <b>아이노아이원</b> all rights reserved</p>
+                                <p class="btnNormal"><a href="" target="_blank">에스크로 서비스 가입 확인</a></p>
+                            </div>
+                        </div>
+                        <div class="footersns">
+                            <div class="sns">
+                                <a href="https://www.facebook.com/%EC%95%84%EC%9D%B4%EB%85%B8%EC%95%84%EC%9D%B4%EC%9B%90-100651838379939/"><i class="xi-facebook"></i></a>
+                                <a href="https://www.instagram.com/iknowione_official"><i class="xi-instagram"></i></a>
+                                <a href="https://www.youtube.com/c/JAYJUNTV/featured"><i class="xi-youtube-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="mobile_wrap">
+        <div class="menu_bg">
+            <div class="menu">
+                <div class="menu_close" style="width: 96%; text-align: right" onclick="HideMenu()"><img style="width: 26px; cursor: pointer;"src="./img/close.png"></div>
+                <div class="menu_sub" style="width: 96%; height: 80px;">
+                    <li>LOG-IN</li>
+                    <li>JOIN</li>
+                    <li>MY PAGE</li>
+                </div>
+                <div class="m_cate" style="width: 96%; height: 600px;">
+                    <li><a href="#">BREND</a><span></span></li>
+                    <li><a href="#" class="subtxt1" onclick="ShowSubMenu('#sub1')">SHOPPING</a><span></span>
+                        <button class="subtxt1" onclick="ShowSubMenu('#sub1')">+</button>
+                        <div class="menu_2" id="sub1">
+                            <div class="menu2_cate">ALL</div>
+                            <div class="menu2_cate">MAKE UP</div>
+                            <div class="menu2_cate">FACE</div>
+                            <div class="menu2_cate">LIP</div>
+                            <div class="menu2_cate">SKIN CARE</div>
+                        </div>
+                    </li>
+                    <li><a href="#">EVENT</a<span></span></li>
+                    <li><a href="#" class="subtxt2" onclick="ShowSubMenu('#sub2')">COMMYNITY</a><span></span>
+                        <button class="subtxt2" onclick="ShowSubMenu('#sub2')">+</button>
+                        <div class="menu_2" id="sub2">
+                            <div class="menu2_cate">NOTICE</div>
+                            <div class="menu2_cate">REVIEW</div>
+                            <div class="menu2_cate">Q&amp;A</div>
+                        </div>
+                    </li>
+                </div>
+                <div class="m_sns" style="width: 96%; height: 100px;">
+                    <li><a href="#">FACEBOOK</a></li>
+                    <li><a href="#">INSTAGAM</a></li>
+                    <li><a href="#">YOUTUBE</a></li>
+                </div>
+            </div>
+        </div>
+        <div class="search_bg">
+            <div class="search">
+                <div class="search_close" style="width: 96%; text-align: right; padding: 3%;" onclick="Hidesearch()"><img style="width: 26px;cursor: pointer;"src="./img/close.png"></div>
+                <div class="searchBox" style="width: 100%; text-align: left">
+                    <div class="searchTxt">
+                        <div style="width: 10%; float: left; font-size: 20px; line-height: 2.5; color:#c4c4c4; text-align: center;">#</div>
+                        <input type="text">
+                        <div class="searchIcon"><img style="cursor: pointer;"src="./img/search.png"></div>
+                    </div>
+                    <div style="width: 100%; height: 50px; line-height: 3; color: #c4c4c4; font-size:15px; text-align: center; cursor: pointer;"># 아이라이너 # 쿠션 # 치크 # 립스틱 # 브릿지</div>
+                </div>
+                <div class="ranking">
+                    <li><span>1.</span><a href="#">아이 터치 쿠션</a></li>
+                    <li><span>2.</span><a href="#">아이 터치 블로썸 치크</a></li>
+                    <li><span>3.</span><a href="#">아이 러브 글로시 립스틱</a></li>
+                    <li><span>4.</span><a href="#">아이 러브 매트 립스틱</a></li>
+                    <li><span>5.</span><a href="#">아이 러브 립스틱 브릿지</a></li>
+                </div>
+            </div>
+        </div>
+        <div id="header">
+            <ul class="header_inner">
+                <li id="header_navbar"><img src="./img/menu_icon_128510.png" style="cursor: pointer;" onclick="ShowMenu()"></li>
+                <li id="header_logo"><img src="./img/logo01.png"></li>
+                <li id="header_subnav">
+                    <i class="xi-search subnav" style="cursor: pointer;"onclick="Showsearch()"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="contents">
+            <div class="mainSlide_bg">
+                <div class="mainSlideImg_box">
+                    <div class="mainSlide">
+                        <div class="mainimg_box_content">
+                            <div class="mainimg_box mainimg_box01 mainCM">
+                                <img src="./img/main01.jpg">
+                                <img src="./img/main02.jpg">
+                                <img src="./img/main03.jpg">
+                                <img src="./img/main04.jpg">
+                                <img src="./img/main05.jpg">
+                            </div>
+                            <div class="mainimg_box mainimg_box02 mainCM">
+                                <img src="./img/main01-1.jpg">
+                                <img src="./img/main02-1.jpg">
+                                <img src="./img/main03-1.jpg">
+                                <img src="./img/main04-1.jpg">
+                                <img src="./img/main05-1.jpg">
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="mainSlide_txt mainCM">
+                        <p>#얼루어 Pick<b>Glow Shimmerbase</b></p>
+                        <p>#LIP MAKEUP<b>I LOVE MULTI COLOR PEN</b></p>
+                        <p>#Editor pick #59% OFF<b>코덕박스</b></p>
+                        <p>#완벽한컬러조합 #브러쉬 증정<b>I LIKE EYE SHADOW TRIO</b></p>
+                        <p>#보송텍스쳐 #더블레이어링<b>I NEED U CUSHION</b></p>
+                    </div>
+                </div>
+            </div>
+            <div id="product_slide">
+                <div id="productSlideWrap">
+                    <h3>all</h3>
+                    <div class="productBg" style="width: 200%; height: 100%; overflow: hidden;">
+                        <div class="product_box" id="product_box01">
+                            <ul class="small_product_box">
+                                <li class="small_product small_productTop">
+                                    <div class="smPrImg">
+                                        <img src="./img/20443e91f86c163d65f675be0aae7b41.png">
+                                    </div>
+                                    <div class="smPrTXT">
+                                        <span class="productName">아이터치쿠션치크</span>
+                                        <span class="productExplanation">발그레한 두 볼을 촉촉하게 물들이는 쿠션 치크 #과즙쿠션치크</span>
+                                        <span class="retailPrice">17,000원</span>
+                                        <span class="salePrice">8,500원</span>
+                                    </div>
+                                </li>
+                                <li class="small_product small_productbottom">
+                                    <div class="smPrTXT">
+                                        <span class="productName">아이 터치 블로썸 치크</span>
+                                        <span class="productExplanation">두 컬러를 레이어링해 다양한 연출이 가능한 멀티 하이라이팅 치크</span>
+                                        <span class="retailPrice">19,000원</span>
+                                        <span class="salePrice">9,500원</span>
+                                    </div>
+                                    <div class="smPrImg">
+                                        <img src="./img/fd29823fec5cb960c09e3dfa3f9ceb2b.png">
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="big_product">
+                                <div class="block">
+                                    <img src="./img/058d01802fab7f9d11b01d51ac74db20.png">
+                                </div>
+                                <div class="m_Bg">
+                                    <span class="bigproductName">아이 러브 글로시 립스틱</span>
+                                    <span class="bigproductExplanation">매끈하고 촉촉한 입술을 연출해주는 고발색 립스틱</span>
+                                    <span class="bigretailPrice">16,000원</span>
+                                    <span class="bigsalePrice">4,900원</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_box" id="product_box02">
+                            <ul class="small_product_box">
+                                <li class="small_product small_productTop">
+                                    <div class="smPrImg">
+                                        <img src="./img/48ca0fe2302b0f636fa74f7911c3fcbe (1).png">
+                                    </div>
+                                    <div class="smPrTXT">
+                                        <span class="productName">아이 러브 매트 립스틱</span>
+                                        <span class="productExplanation">가볍고 보송한 초밀착 핏팅감과 선명한 컬러감</span>
+                                        <span class="retailPrice">16,000원</span>
+                                        <span class="salePrice">4,900원</span>
+                                    </div>
+                                </li>
+                                <li class="small_product small_productbottom">
+                                    <div class="smPrTXT">
+                                        <span class="productName">아이 러브 립스틱 브릿지</span>
+                                        <span class="productExplanation">두 컬러를 이어주는 립스틱 전용 브릿지</span>
+                                        <span class="retailPrice">5,000원</span>
+                                        <span class="salePrice">3,000원</span>
+                                    </div>
+                                    <div class="smPrImg">
+                                        <img src="./img/857817689ef67613fb6bac955bf9b4d4.png">
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="big_product">
+                                <div class="block">
+                                    <img src="./img/8bc404ee6be245074987f3b5366d67a5.png">
+                                </div>
+                                <div class="m_Bg">
+                                    <span class="bigproductName">아이 니드 유 쿠션 + 리필 1 증정</span>
+                                    <span class="bigproductExplanation">한 단계 더 진화된 더블 레이어링 쿠션 #자석쿠션</span>
+                                    <span class="bigretailPrice">42,000원</span>
+                                    <span class="bigsalePrice">19,800원</span>
+                                </div>
+                                <!-- <div class="block">
+                                    <img scr="./img/8bc404ee6be245074987f3b5366d67a5.png">
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="Allprne">
+                    <div class="Allprev"><img src="./img/prevarrow.png"></div>
+                    <a></a>
+                    <div class="Allnext"><img src="./img/nextarrow.png"></div>
+                </div>
+            </div>
+            <div id="mainvisual">
+                <div id="mainvisual_center">
+                    <ul>
+                        <li class="overColor">
+                            <span class="mainvisual_txt">    
+                                <b>I NEED U CUSHION</b>
+                                <span>
+                                    가볍고 보송하게 롱 웨어링!<br> 한 단계 진화된 더블 레이어링 쿠션
+                                </span>
+                            </span>    
+                            <div class="mainvisual_img">
+                                <img src="./img/banner01.jpg">
+                            </div>
+                        </li>
+                        <li class="overColor over02">   
+                            <div class="mainvisual_img">
+                                    <img src="./img/banner02.jpg">
+                            </div>
+                            <span class="mainvisual_txt">    
+                                <b>PORE VELVET BASE</b>
+                                <span>
+                                    한 겹 벨벳을 씌운 듯 하얀 도자기 피부결처럼<br>매끈하고 보송하게!
+                                </span>
+                            </span> 
+                        </li>
+                        <li class="overColor">
+                            <span class="mainvisual_txt">    
+                                <b>다양한 혜택의 멤버십 안내</b>
+                                <span>
+                                    고객 여러분께 감사의 마음을 전하는 멤버십 혜택입니다.
+                                </span>
+                            </span>    
+                            <div class="mainvisual_img">
+                                <img src="./img/banner03.jpg">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="tabCategory">
+                <div id="tabCategory_center">
+                    <ul class="tabs">
+                        <li class="tabOn need">#I NEED</li>
+                        <li class="love">#I LOVE</li>
+                        <li class="touch">#I TOUCH</li>
+                        <li class="like">#I LIKE</li>
+                        <li class="wish">#I WISH</li>
+                    </ul>
+                    <div class="cateBox">
+                        <div style="width: 100%; height: 100%;">
+                            <div id="cateBoxTxt">
+                                <div id="m_tab01" class="tabBox tabBoxOn">
+                                    <div class="cateTxt cateOn m_tab1 m_Text1">
+                                        <li class="hashtagTxt txtOn rotate">
+                                            <p class="proname">아이 니드 유 쿠션 + 리필 1 증정</p>
+                                            <span class="promotion">한 단계 더 진화된 더블 레이어링 쿠션 #자석쿠션</span>
+                                        </li>
+                                        <li class="hashtagTxt">
+                                            <p class="proname">아이 니드 유 파운데이션</p>
+                                            <span class="promotion">매끈하게 피부를 감싸는 리퀴드 파운데이션</span>
+                                        </li>
+                                        <li class="hashtagTxt">
+                                            <p class="proname">아이 니드 포어 벨벳 베이스</p>
+                                            <span class="promotion">한 겹 벨벳을 씌운 듯 피부결을 매끈하고 보송하게</span>
+                                        </li>
+                                        <div class="btnprdby">구매하기</div>
+                                    </div>
+                                    <div class="thumbnail">
+                                        <div class="prdImg">
+                                            <img class="ImgOn rotate" src="./img/8bc404ee6be245074987f3b5366d67a5.png">
+                                            <img src="./img/084d3078b0d2b8723ccd5f4f3c96c04a.png">
+                                            <img src="./img/96069849a82f32bba7a820bad5955183.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="m_tab02" class="tabBox">
+                                    <div class="cateTxt cateOn m_tab2 m_Text2">
+                                        <li class="hashtagTxt txtOn aa">
+                                            <p class="proname">아이 러브 멀티 컬러 펜</p>
+                                            <span class="promotion">부드러운 발림성으로 또렷하고 선명한 립라인을 선사하는 립펜슬 #스무디립펜슬</span>
+                                        </li>
+                                        <li class="hashtagTxt aa">
+                                            <p class="proname">아이 러브 매트 립스틱</p>
+                                            <span class="promotion">가볍고 보송한 초밀착 핏팅감과 선명한 컬러감</span>
+                                        </li>
+                                        <li class="hashtagTxt aa">
+                                            <p class="proname">아이 러브 글로시 립스틱</p>
+                                            <span class="promotion">매끈하고 촉촉한 입술을 연출해주는 고발색 립스틱</span>
+                                        </li>
+                                        <div class="btnprdby">구매하기</div>
+                                    </div>
+                                    <div class="thumbnail">
+                                        <div class="prdImg">
+                                            <img class="ImgOn" src="./img/cb5e42a496b649f9bbd0ba1f43f2876b.png">
+                                            <img src="./img/48ca0fe2302b0f636fa74f7911c3fcbe (2).png">
+                                            <img src="./img/84e0734fb984885abb53241056cf0fc4.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="m_tab03" class="tabBox">
+                                    <div class="cateTxt cateOn m_tab3 m_Text3">
+                                        <li class="hashtagTxt txtOn">
+                                            <p class="proname">아이 터치 쿠션 치크</p>
+                                            <span class="promotion">발그레한 두 볼을 촉촉하게 물들이는 쿠션 치크 #과즙쿠션치크</span>
+                                        </li>
+                                        <li class="hashtagTxt">
+                                            <p class="proname">아이 터치 블로썸 치크</p>
+                                            <span class="promotion">두 컬러를 레이어링해 다양한 연출이 가능한 멀티 하이라이팅 치크</span>
+                                        </li>
+                                        <div class="btnprdby">구매하기</div>
+                                    </div>
+                                    <div class="thumbnail">
+                                        <div class="prdImg">
+                                            <img class="ImgOn" src="./img/20443e91f86c163d65f675be0aae7b41 (1).png">
+                                            <img src="./img/fd29823fec5cb960c09e3dfa3f9ceb2b (1).png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="m_tab04" class="tabBox">
+                                    <div class="cateTxt cateOn m_tab4 m_Text4">
+                                        <li class="hashtagTxt txtOn">
+                                            <p class="proname">아이 라이크 아이섀도 트리오</p>
+                                            <span class="promotion">눈 위에 펼쳐지는 세 가지 컬러의 수채화 같은 블렌딩</span>
+                                        </li>
+                                        <li class="hashtagTxt">
+                                            <p class="proname">아이 라이크 3 인 1 아이브로우</p>
+                                            <span class="promotion">빈틈없이 정교하고 깔끔한 눈매를 연출하는 3 IN 1 아이브로우</span>
+                                        </li>
+                                        <div class="btnprdby">구매하기</div>
+                                    </div>
+                                    <div class="thumbnail">
+                                        <div class="prdImg">
+                                            <img class="ImgOn" src="./img/d9d63aab7d46fc6300cb1693a95a039f.png">
+                                            <img src="./img/2a7861193abacf03b23b04ed67fb4c63.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="m_tab05" class="tabBox">
+                                    <div class="cateTxt cateOn m_tab5 m_Text5">
+                                        <li class="hashtagTxt txtOn">
+                                            <p class="proname">아이 위시 메이크업 픽싱 미스트 (50ml)</p>
+                                            <span class="promotion">미스트의 보습력과 픽서의 고정력을 하나에 담다!</span>
+                                        </li>
+                                        <li class="hashtagTxt">
+                                            <p class="proname">아이 위시 레디 2 메이크업 마스크 (5개)</p>
+                                            <span class="promotion">지친 피부를 달래주고 수분을 채워 촉촉한 피부로 가꾸어주는 마스크</span>
+                                        </li>
+                                        <div class="btnprdby">구매하기</div>
+                                    </div>
+                                    <div class="thumbnail">
+                                        <div class="prdImg">
+                                            <img class="ImgOn" src="./img/d7d83f00cb6ba358c53f507afce4fa60.png">
+                                            <img src="./img/6668c60cd52f3ebfaf40b97140b45469.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prne">
+                                <div class="prev"><img src="./img/prevarrow.png"></div>
+                                <a></a>
+                                <div class="next"><img src="./img/nextarrow.png"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="movie">
+                <div id="movie_bg"></div>
+                <div id="movie_inner">
+                    <h2>More effective YET Minimal makeup</h2>
+                    <h3>하나의 제품, 간단한 터치만으로 손쉽게!</h3>
+                    <div class="movie_wrp">
+                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/7YG4zqXOBoc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <div id="notice_box">
+                    <div>
+                        <div>
+                            <div class="notice"><b>공지</b></div>
+                            <div class="title">
+                                <a href="">CJ대한통운 물량폭주로 인한 배송지연 안내</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer_box">
+                    <div id="footer_inner">
+                        <div class="footerlogo">
+                            <img src="./img/logo01 (1).png">
+                        </div>
+                        <div class="footertxt">
+                            <div id="sub_cate">
+                                <span>홈으로</span>
+                                <span>회사소개</span>
+                                <span>이용약관</span>
+                                <span>개인정보취급방침</span>
+                                <span>이용안내</span><br>
+                                <span>공정거래위원회</span>
+                                <span>구매안전서비스</span>
+                            </div>
+                            <div id="address">
+                                <p><span>company. 주식회사 에프앤리퍼블릭</span>
+                                <span>owner. 오창근</span>
+                                <span>personal info manager. 조병현 (help@ssbc.co.kr)</span></p>
+                                <p><span>tel. 02-1899-0243</span>
+                                <span>business no. 130-81-32739</span>
+                                <span>mail order license. 2020-서울성동-02138호 </span>
+                                <span>[사업자정보확인]</span></p>
+                                <p class="copy">copyright © <b>아이노아이원</b> all rights reserved</p>
+                                <p class="btnNormal"><a href="" target="_blank">에스크로 서비스 가입 확인</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="./js/iknowione.js"></script>
+    <script src="js/m_ikowione.js"></script>
+</body>
+</html>
